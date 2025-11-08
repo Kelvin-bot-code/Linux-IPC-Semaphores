@@ -1,28 +1,3 @@
-# Linux-IPC-Semaphores
-Ex05-Linux IPC-Semaphores
-
-# AIM:
-To Write a C program that implements a producer-consumer system with two processes using Semaphores.
-
-# DESIGN STEPS:
-
-### Step 1:
-
-Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
-
-### Step 2:
-
-Write the C Program using Linux Process API - Sempahores
-
-### Step 3:
-
-Execute the C Program for the desired output. 
-
-# PROGRAM:
-
-## Write a C program that implements a producer-consumer system with two processes using Semaphores.
-### sem.c
-```c
 #include <stdio.h>      
 #include <stdlib.h>     
 #include <unistd.h>     
@@ -116,21 +91,3 @@ int main() {
     return 0;
 }
 
-
-```
-
-
-
-## OUTPUT
-### $ ./sem.o 
-
-<img width="1223" height="709" alt="Screenshot 2025-11-09 004728" src="https://github.com/user-attachments/assets/a4ec8929-9a6d-4241-9618-ce52fe4d2ea0" />
-
-
-### $ ipcs
-<img width="867" height="577" alt="Screenshot 2025-11-09 013308" src="https://github.com/user-attachments/assets/3c4dafdf-9245-4f5e-890e-9ad30908d746" />
-
-
-# RESULT:
-The program is executed successfully.
-// C program that implements a producer-consumer system with two processes using Semaphores.
